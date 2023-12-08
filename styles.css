@@ -1,0 +1,61 @@
+/* Reset des styles par défaut pour une meilleure cohérence entre les navigateurs */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Choix de la police de caractères */
+    background-color: #f8f8f8; /* Couleur d'arrière-plan */
+    line-height: 1.6;
+    color: #333; /* Couleur du texte principal */
+}
+
+header {
+    background: #333; /* Couleur d'arrière-plan de l'en-tête */
+    color: #fff; /* Couleur du texte de l'en-tête */
+    padding: 40px 0; /* Espacement intérieur de l'en-tête */
+    text-align: center; /* Centrer le texte */
+}
+
+header h1 {
+    font-size: 2.5em; /* Taille de la police de l'en-tête */
+    margin-bottom: 10px; /* Espacement entre le titre et le sous-titre */
+}
+
+header p {
+    font-size: 1.2em; /* Taille de la police du sous-titre */
+}
+
+.container {
+    width: 80%; /* Largeur de la zone principale */
+    margin: auto; /* Centrer la zone principale */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stream-link {
+    text-align: center; /* Centrer le contenu */
+    text-decoration: none; /* Supprimer la soulignement des liens */
+    color: #333; /* Couleur du texte des liens */
+    width: 200px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out; /* Effet de transition pour l'animation */
+}
+
+.stream-link:hover {
+    transform: translateY(-5px); /* Animation lorsqu'on survole avec la souris */
+}
+
+.stream-link img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bords arrondis pour les images */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour les images */
+}
+
+.stream-link h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
